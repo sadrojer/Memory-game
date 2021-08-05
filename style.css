@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: #4d4d4d;
+  overflow:hidden;
+}
+
+header {
+  height: 200px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: pink;
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Fascinate', cursive;
+}
+
+button {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px
+}
+
+#but0 {
+  background-color: #666699
+}
+
+#but1 {
+  background-color: #33cccc
+}
+
+#but2 {
+  background-color: #ff9966
+}
+
+#but3 {
+  background-color: #ffff99
+}
+
+@media screen and (max-width:426px) {
+
+  header {
+    width: 320px;
+    height: 150px
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  button {
+    height: 100px;
+    width: 100px;
+  }
+}
